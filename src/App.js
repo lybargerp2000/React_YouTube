@@ -12,7 +12,7 @@ class Main extends Component{
       return(
           <div className="App">
               <h1>Roll Die!</h1>
-              <Die numberOfSides={100}/>
+              <Die numberOfSides={50}/>
 ​
               {/* <RegisterForm /> */}
           </div>
