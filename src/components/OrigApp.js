@@ -1,7 +1,9 @@
-import React from 'react';
+
 import logo from './logo.svg';
 import './App.css';
 import Die from './components/Die';
+import React from 'react';
+import {Component} from 'react';
 
 function App() {
  
@@ -21,8 +23,8 @@ function App() {
             Learn React
           </a>
           <div className="App">
-                <h1>NFL Matchup of the Week</h1>
-                <Die numberOfSides={10} buttonClick={(message) => this.display(message)}/>
+                <h1>Roll Die!!</h1>
+                <Die numberOfSides={10}/>
   ​
                 {/* <RegisterForm /> */}
             </div>
