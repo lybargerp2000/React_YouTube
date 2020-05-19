@@ -24,9 +24,13 @@ function App() {
           </a>
           <div className="App">
                 <h1>Roll Die!!</h1>
-                <Die numberOfSides={10}/>
+                <Die numberOfSides={50}/>
   ​
                 {/* <RegisterForm /> */}
+            </div>
+            <div className="App">
+             <h1>Video!!</h1>
+             <Container/>
             </div>
          
         </header>

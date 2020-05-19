@@ -5,7 +5,7 @@ const Container = (props) => {
     const [collections, setCollections] = useState({});
 
     useEffect(() => {
-        axios.get('http://localhost.3000/collections')
+        axios.get('https://www.googleapis.com/youtube/v3/videos?id=7lCDEYXw3mM&key=APIKEY=snippet,contentDetails,statistics,status')
         .then(response => setCollections(response.data[props.index])
         
         )}, [collections, props.index]);
@@ -19,3 +19,4 @@ const Container = (props) => {
     
     );
 }
+export default Container; 
