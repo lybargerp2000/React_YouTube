@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Die from './components/Die';
+import Container from './components/Container';
 import React from 'react';
 import {Component} from 'react';
 
